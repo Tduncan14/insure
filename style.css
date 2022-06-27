@@ -1,6 +1,227 @@
 *{
-    background:blue;
+
     margin:0;
     padding:0;
     box-sizing: content-box;
+}
+
+/* header */
+
+.header{
+    display:flex;
+    justify-content:space-evenly;
+    margin-right:13.5rem;
+    margin-left:5rem;
+}
+
+.header ul{
+    display:flex;
+    
+}
+
+.header .logo{
+    padding:2rem;
+    cursor:pointer;
+
+}
+
+.header ul li{
+    list-style-type: none;
+    padding: 2rem 1.5rem;
+    cursor:pointer;
+}
+
+
+.specialLi{
+    border:1px solid;
+    padding: .5rem 1rem;
+
+}
+
+
+/* hero  */
+.hero{
+    display:flex;
+    background-color: hsl(270, 9%, 17%);
+}
+
+
+
+
+/* left side */
+.left{
+    width:50%;
+    margin-top:10rem;
+    display:flex;
+    flex-direction: column;
+}
+
+
+.left h1{
+    font-size:52px;
+    margin-bottom:1.5rem;
+    color:white;
+}
+
+
+.left p {
+    color:white;
+    line-height:1.5rem;
+    margin-bottom:2rem;
+}
+
+/* right side */
+.right{
+    width:50%;
+}
+
+.right img{
+    position:relative;
+    top:7rem;
+    left:-7rem;
+
+}
+
+
+/*  content */
+
+.content{
+    margin-top:15rem;
+}
+
+
+
+
+
+.contentLi{
+    display:flex;
+    
+}
+
+.iconcard{
+    width:27%;
+    padding:1rem;
+    margin-right:5rem;
+    margin-left:5rem;
+}
+
+.iconcard i{
+    margin-top:1.5rem;
+    margin-bottom:1rem;
+    display:block;
+}
+
+.iconcard h2{
+    margin-bottom:1.5rem;
+
+}
+
+
+
+/* the banner */
+
+
+.banner{
+    margin-top:10rem;
+   background-color: hsl(270, 9%, 17%);
+   width:85.5%;
+   margin-right: auto;
+   margin-left:auto;
+   display:flex;
+   justify-content: space-between;
+   margin-bottom:7rem;
+   padding:5rem 0;
+
+}
+
+/* this is the footer */
+
+.footer{
+    margin-right: auto;
+    margin-left:auto;
+    background-color:  hsl(0, 0%, 98%);
+    padding-bottom:5rem;
+
+}
+
+
+.subfooter{
+    display:flex;
+    justify-content: space-between;
+    margin-bottom:5rem;
+    margin-top:5rem;
+    margin-right:11rem;
+    margin-left:11rem;
+    padding-top:5rem;
+
+}
+
+
+.subfooter ul{
+    display:flex;
+    list-style-type:none;
+    
+}
+
+
+.subfooter li{
+    margin-right:.7rem;
+}
+
+.subfooter h1{
+    font-size:24px;
+}
+
+
+.bottomFooter ul li:first-child{
+    color:gray;
+    margin-bottom:2rem;
+}
+
+
+
+.special{
+    position:relative;
+    top:-1rem;
+}
+
+.bottomFooter ul li{
+    margin-top:1rem;
+}
+
+.bottomFooter{
+    display:grid;
+    grid-template-columns: repeat(4, 270px);
+    margin-right: auto;
+    margin-left:auto;   
+    gap:30; 
+    align-items: center;
+    justify-content: center;
+
+}
+
+
+
+.bottomFooter li{
+    list-style-type:none;
+}
+
+
+
+
+
+/* standarddd */
+
+.positional{
+    margin-right:3rem;
+    margin-left:3rem;
+}
+
+
+hr {
+    margin-bottom:2.5rem;
+    width:75%;
+    margin-right:auto;
+    margin-left:auto;
+    margin-top:-3.5rem;
 }
